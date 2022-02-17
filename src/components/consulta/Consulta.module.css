@@ -1,0 +1,31 @@
+.consultaWrap{
+  width: 70%;
+  height: 100px;
+  border-radius: 10px;
+  background-color: var(--gray-1);
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputWrap{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px auto;
+}
+
+input{
+  border-radius: 10px;
+  height: 30px;
+}
+
+label{
+  margin-right: 24px;
+}
+
+button{
+  display: block;
+  align-self: flex-end;
+}
+

@@ -1,0 +1,29 @@
+@import './Reset.module.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+  --amarelo: #FFDA1B;
+
+  --bege-1: #F6F2EA;
+  --bege-2: #F0E5CF;
+  --bege-3: #EECF92;
+  --bege-4: #DBAD52;
+
+  --blue-1: #B4D1F6;
+  --blue-2: #719AD1;
+  --blue-3:#5B7DA9;
+  --blue-4:#20406A;
+  --blue-5:#0E2543;
+
+  --gray-1: #ECECEF;
+  --gray-2: #D6D6DD;
+  --gray-3: #C8C6C6;
+  --gray-4: #99999C;
+  --gray-5: #51515B;
+
+  --black: #202124;
+  --white: #F7F6F2;
+
+  --baseFont: 'Roboto', sans-serif;
+}
+

@@ -1,14 +1,13 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'
 // import Consulta from './components/consulta/Consulta.jsx';
-import Header from './components/header/Header.jsx';
-import Styles from './App.module.css';
-import {Login, Search} from './pages';
+import Header from './components/header/Header.jsx'
+import Styles from './App.module.css'
+import { Login, Search } from './pages'
 
-function App() {
-
+function App () {
   return (
     <div className={Styles.App}>
-      <Header/>
+      <Header />
       <div className={Styles.content}>
         <Routes>
           <Route path='/' element={<Search />} />
@@ -16,7 +15,7 @@ function App() {
         </Routes>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

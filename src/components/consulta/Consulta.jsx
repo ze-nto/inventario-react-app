@@ -7,16 +7,16 @@ const Consulta = () => {
       <form>
         <div className={Styles.inputWrap}>
           <div>
-            <label htmlFor="">Siape</label>
-            <input type="text" />
+            <label htmlFor=''>Siape</label>
+            <input type='text' />
           </div>
           <div>
-            <label htmlFor="">Tombo</label>
-            <input type="text" />
+            <label htmlFor=''>Tombo</label>
+            <input type='text' />
           </div>
           <div>
-            <label htmlFor="">GID</label>
-            <input type="text" />
+            <label htmlFor=''>GID</label>
+            <input type='text' />
           </div>
         </div>
         <button>Consultar</button>

@@ -16,7 +16,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test2": "jest --passWithNoTests --no-cache --runInBand",
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +42,8 @@
   },
   "devDependencies": {
     "git-commit-msg-linter": "^4.0.7",
-    "lint-staged": "^12.3.4"
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "standard": "^16.0.4"
   }
 }

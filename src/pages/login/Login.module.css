@@ -10,10 +10,8 @@
   display: flex;
   flex-direction: column;
   background-color: var(--gray-2);
-  /* width: 400px; */
   border-radius: 10px;
-  /* height: 200px; */
-  padding: 32px 64px;
+  padding: 32px 64px 32px 52px;
   align-items: center;
   justify-content: flex-start;
 }

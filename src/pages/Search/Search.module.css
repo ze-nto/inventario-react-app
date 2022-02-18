@@ -1,0 +1,21 @@
+.searchContainer{
+  height: calc(100vh -50px);
+  display: flex;
+  justify-content: center;
+}
+
+.searchWrap{
+  margin-top: 64px;
+  padding: 32px;
+  background-color: var(--gray-2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 70%;
+  flex-wrap: wrap;
+}
+
+input[name="nome"]{
+  width: 400px;
+}

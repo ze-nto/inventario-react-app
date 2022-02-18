@@ -23,7 +23,13 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "globals": {
+      "fetch": false
+    },
+    "env": {
+      "browser": true
+    }
   },
   "browserslist": {
     "production": [
@@ -44,6 +50,6 @@
     "standard": "^16.0.4"
   },
   "standard": {
-    "env": [ "jest" ]
+    "env": [ "jest", "browser"]
   }
 }

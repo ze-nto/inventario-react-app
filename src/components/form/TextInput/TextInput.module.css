@@ -1,0 +1,33 @@
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputGroup input{
+  margin-left: 8px;
+  flex-grow: 1;
+  border-radius: 8px;
+  border: 1px solid var(--gray-4);
+  height: 32px;
+  padding: 0 8px;
+}
+
+.inputWrap{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.inputGroup label{
+  letter-spacing: .8px;
+}
+
+.error{
+  color: var(--red);
+  margin-top: 2px;
+  font-size: 12px;
+  align-self: left;
+}

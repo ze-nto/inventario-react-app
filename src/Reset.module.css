@@ -4,3 +4,15 @@
   font-family: var(--baseFont);
   list-style: none;
 }
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: unset;
+}
+
+input{
+  outline-color: var(--blue-2);
+}

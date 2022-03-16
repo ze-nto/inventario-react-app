@@ -1,0 +1,12 @@
+.dropdownItemWrap{
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  text-align: left;
+  padding: 8px 0px;
+  border-bottom: 1px solid var(--blue-3);
+}
+
+.dropdownItemWrap:last-child{
+  border-bottom: 1px solid transparent;
+}

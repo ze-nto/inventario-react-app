@@ -1,0 +1,11 @@
+.dropdownWrap{
+  position: absolute;
+  top: 30px;
+  /* width: 240px; */
+  line-break: strict;
+  text-align: center;
+  padding: 8px;
+  left: 0px;
+  border-radius: 8px;
+  background: var(--blue-2);
+}

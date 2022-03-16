@@ -1,0 +1,17 @@
+.links{
+  display: flex;
+  list-style: none;
+  color:var(--white);
+  position: relative;
+}
+
+.links li{
+  margin: 0 20px;
+  letter-spacing: 1.1px;
+  border-bottom: 2px solid transparent;
+}
+
+.links li:hover{
+  border-bottom: 2px solid var(--amarelo);
+  transition: all .5s;
+}

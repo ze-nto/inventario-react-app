@@ -1,0 +1,68 @@
+.userListItemWrap{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userInfo{
+  font-weight: 500;
+}
+
+.register{
+  display: inline-block;
+  color: var(--blue-3);
+  font-weight: 700;
+  min-width: 90px;
+  margin-right: 16px;
+  border-right: 2px solid var(--gray-2);
+}
+
+.userControls{
+  display: flex;
+}
+
+.userControls button{
+  padding: 8px 16px;
+  margin-left: 16px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.userControls button:active{
+  transform: scale(.98);
+}
+
+.userControls button:first-child{
+  background-color: var(--blue-2);
+  color: var(--white);
+
+}
+
+.userControls button:first-child:hover{
+  background-color: var(--blue-1);
+}
+
+.userControls button:first-child:active{
+  background-color: var(--blue-2);
+  transform: scale(0.89);
+}
+
+.userControls button:last-child{
+  background-color: var(--bege-4);
+  color: var(--gray-5)
+}
+
+.userControls button:last-child:hover{
+  background-color: var(--bege-3);
+}
+
+.userControls button:last-child:active{
+  background-color: var(--bege-4);
+  transform: scale(0.89);
+}

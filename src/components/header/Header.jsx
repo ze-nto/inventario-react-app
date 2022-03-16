@@ -1,30 +1,30 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Styles from './Header.module.css'
 import UserIcon from '../../assets/icons/user.png'
 import LogoutIcon from '../../assets/icons/log-out.png'
 import { Link } from 'react-router-dom'
+import { UserContext } from '../../contexts/UserContext.js'
+import Menu from './components/Menu/Menu.jsx'
 
 const Header = () => {
+  const { data, userLogout } = useContext(UserContext)
   return (
     <header className={Styles.headerWrap}>
       <Link to='/'><div className={Styles.logo}>Controle de Patrimônio</div></Link>
-      <div className={Styles.linksWrap}>
-        <ul className={Styles.links}>
-          <li><Link to='/acervo'>Acervo</Link></li>
-          <li><Link to='/usuarios'>Usuários</Link></li>
-          <li><Link to='/inventario'>Inventário </Link></li>
-        </ul>
-        <ul className={Styles.loginControls}>
-          <li>
-            <img className={Styles.userIcon} src={UserIcon} alt='Icone de usuário' />
-            <span>Jose</span>
-          </li>
-          <li>
-            <img className={Styles.logoutIcon} src={LogoutIcon} alt='Icone de usuário' />
-            <span>Sair</span>
-          </li>
-        </ul>
-      </div>
+      {data && (
+        <div className={Styles.linksWrap}>
+          <Menu />
+          <ul className={Styles.loginControls}>
+            <li>
+              <img className={Styles.userIcon} src={UserIcon} alt='Icone de usuário' />
+              <span>{data.username}</span>
+            </li>
+            <li>
+              <img className={Styles.logoutIcon} src={LogoutIcon} alt='Icone de usuário' />
+              <span className={Styles.logout} onClick={userLogout}>Sair</span>
+            </li>
+          </ul>
+        </div>)}
     </header>
   )
 }

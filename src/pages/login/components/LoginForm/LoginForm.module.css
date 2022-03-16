@@ -3,9 +3,19 @@
   flex-direction: column;
   background-color: var(--gray-2);
   border-radius: 10px;
-  padding: 32px 64px 32px 52px;
+  padding: 32px 64px 32px 24px;
   align-items: center;
   justify-content: flex-start;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+  to{
+    opacity: 1;
+    transform: initial;
+  }
 }
 
 .loginForm{
@@ -16,6 +26,7 @@
 
 .loginWrap h2 {
   text-transform: uppercase;
+  align-self: center;
   color: var(--blue-4);
 }
 
@@ -33,6 +44,14 @@
 }
 
 .loginForm > div.buttonWrap{
-  width: 295px;
+  width: 240px;
   align-self: flex-end;
+}
+
+.error{
+  color: var(--red);
+  margin-top: 2px;
+  font-size: 12px;
+  align-self: left;
+  text-align: left;
 }

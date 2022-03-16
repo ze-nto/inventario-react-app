@@ -1,0 +1,16 @@
+.userManagerWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.userManagerWrap h2 {
+  margin-top: 64px;
+}
+
+.buttonWrap{
+  width: 200px;
+  align-self: flex-end;
+} 

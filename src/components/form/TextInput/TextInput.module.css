@@ -23,6 +23,10 @@
 
 .inputGroup label{
   letter-spacing: .8px;
+  text-align:right;
+  min-width: 100px;
+  max-width: 200px;
+  font-weight: 700;
 }
 
 .error{

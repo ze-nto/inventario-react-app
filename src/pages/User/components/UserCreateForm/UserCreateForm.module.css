@@ -1,0 +1,33 @@
+.createFormWrap{
+  max-width: 60%;
+  min-width: 60%;
+  margin: 0 auto;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.createFormWrap form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.createFormWrap form > div {
+  flex-grow: 1;
+  margin-top: 24px;
+}
+
+.buttonWrap{
+  display: block;
+  width: 200px;
+  align-self: flex-end;
+}
+
+h2{
+  text-transform: uppercase;
+  align-self: flex-start;
+  color: var(--blue-4);
+  margin-bottom: 16px;
+}

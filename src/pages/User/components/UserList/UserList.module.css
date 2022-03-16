@@ -1,0 +1,9 @@
+.userListWrap{
+  background-color: var(--gray-1);
+  min-height: 300px;
+  width: 100%;
+  margin: 24px auto;
+  border-radius: 10px;
+  padding: 32px;
+
+}

@@ -1,26 +1,27 @@
-button{
+.mainButton{
   width: 100%;
   align-self: flex-end ;
   height: 32px;
   background-color: var(--blue-5);
   border: none;
-  border-radius: 8px;color: var(--bege-4);
+  border-radius: 8px;
+  color: var(--bege-4);
   font-weight: 700;
   letter-spacing: 1px;
   cursor: pointer;
 }
 
-button:hover:enabled{
+.mainButton:hover:enabled{
   background-color: var(--blue-4);
 }
 
-button:active{
+.mainButton:active{
   background-color: var(--blue-3);
   transform: scale(.98);
 }
 
 
-button:disabled{
+.mainButton:disabled{
   background-color: transparent;
   color: var(--gray-4);
   border: 1px solid var(--gray-3);

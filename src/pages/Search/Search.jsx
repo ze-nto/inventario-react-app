@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../components/form/Button/Button.jsx'
 import Styles from './Search.module.css'
 
 const Search = () => {
@@ -21,7 +22,7 @@ const Search = () => {
           <label htmlFor='nome'>Nome</label>
           <input type='text' name='nome' />
         </div>
-        <button>Pesquisar</button>
+        <Button>Pesquisar</Button>
       </form>
     </div>
   )
